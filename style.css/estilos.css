@@ -1,0 +1,62 @@
+
+/* ESTILOS INICIO */
+
+#logo{
+    color: beige;
+    font-weight: 700;
+}
+
+#navegacion{
+    color: beige;
+}
+.d-block{
+    max-height: 35rem;
+}
+
+.texto-carrusel{
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+/* ESTILOS NOSOTROS */
+
+.card-title{
+    font-size: 0.7em;
+    text-align: center;
+    
+}
+
+.card-text{
+    text-align: center;
+    font-size: 0.6em;
+}
+
+
+
+@media screen and (max-width: 450px){
+
+    #logo{
+        font-size: 1.0em;
+    }
+
+    #navegacion{
+        font-size: 0.9em;
+    }
+
+    .texto-carrusel{
+        font-size: 1.5em;
+    }
+
+    .card-text{
+        display: none;
+    }
+
+    .card-title{
+        font-size: 0.5em;
+       
+        
+    }
+
+}
+    
+
